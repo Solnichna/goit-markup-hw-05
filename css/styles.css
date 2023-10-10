@@ -152,7 +152,6 @@ img {
     background-size: cover;
     padding: 188px 0;
     max-width: 1440px;
-    max-height: 600px;
     margin-left: auto;
     margin-right: auto;
     
@@ -303,6 +302,7 @@ img {
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 
 .social-icon{
