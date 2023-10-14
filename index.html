@@ -400,10 +400,12 @@
                     Subscribe
                 </p>
                 <form class="footer-form">
-                    <input 
-                        class="footer-input" 
-                        type="email" 
-                        placeholder="E-mail">
+                    <label class="footer-subscribe-label">
+                        <input 
+                            class="footer-input" 
+                            type="email" 
+                            placeholder="E-mail">
+                    </label>
                     <button class="footer-form-btn" type="submit">Subscribe
                         <svg class="footer-icon-send" width="24" height="24">
                             <use href="./images/icons.svg#icon-Frame-3"></use>
@@ -429,7 +431,7 @@
                     <div class="modal-input-wrap">
                         <input 
                             type="text" 
-                            ame="user-name" 
+                            name="user-name"
                             class="modal-input" 
                             id="user-name"
                             required/>
@@ -478,17 +480,18 @@
                 <div class="modal-field-checkbox">
                     <input
                         type="checkbox" 
-                        name="modal-check" 
+                        name="user-privacy" 
                         class="check-input visually-hidden" 
-                        id="modal-check"/>
-                    <label class="check-text" for="modal-check">
-                        <span>
+                        id="user-privacy"
+                        value="true"/>
+                    <label class="check-text" for="user-privacy">
+                        <span class="checkbox-span">
                             <svg class="modal-check-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-Checkbox"></use>
                             </svg>
                         </span>
                         I accept the terms and conditions of the 
-                        <a href="">Privacy Policy</a>
+                        <a class="checkbox-link-a" href="">Privacy Policy</a>
                     </label>
                 </div>
                 <button type="submit" class="submit-btn">Send</button>
